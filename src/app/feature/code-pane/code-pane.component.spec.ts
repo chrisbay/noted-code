@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CodeAreaComponent } from './code-area.component';
+import { CodePaneComponent } from './code-pane.component';
 
-describe('CodeAreaComponent', () => {
-  let component: CodeAreaComponent;
-  let fixture: ComponentFixture<CodeAreaComponent>;
+describe('CodePaneComponent', () => {
+  let component: CodePaneComponent;
+  let fixture: ComponentFixture<CodePaneComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [CodeAreaComponent]
+      imports: [CodePaneComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(CodeAreaComponent);
+    fixture = TestBed.createComponent(CodePaneComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

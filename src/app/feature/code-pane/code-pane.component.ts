@@ -1,17 +1,13 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { HighlightModule } from 'ngx-highlightjs';
 import { Samples } from '../../core/constants/samples.enum';
-import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'code-area',
-  standalone: true,
-  imports: [HighlightModule],
-  templateUrl: './code-area.component.html',
-  styleUrl: './code-area.component.css'
+  selector: 'nc-code-pane',
+  templateUrl: './code-pane.component.html',
+  styleUrl: './code-pane.component.css'
 })
-export class CodeAreaComponent implements OnInit {
+export class CodePaneComponent implements OnInit {
 
   public code: string = '';
 
