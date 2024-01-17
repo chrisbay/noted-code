@@ -1,3 +1,3 @@
 export enum Samples {
-  HELLO = 'assets/samples/hello.ts'
+  HELLO = 'assets/samples/hello'
 }
